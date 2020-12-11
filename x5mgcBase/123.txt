@@ -1,0 +1,1 @@
+﻿2019-07-01 14:59:29.133 INFO  [6556] [ServiceInstall@18] Install: Path is :E:\x5mobile\x5mgcBase\Debug\x5mgcBase.exe

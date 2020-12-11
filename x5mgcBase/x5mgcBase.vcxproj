@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{9ABCAB07-85AE-40D6-BAB3-E06C151C0FE2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>x5mgcBase</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\include\libwebsockets;..\\include;C:\Program Files (x86)\Visual Leak Detector\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\Visual Leak Detector\lib\Win32;C:\Program Files %28x86%29\OpenSSL-Win32\lib\VC</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vld.lib;libcrypto32MDd.lib;libssl32MDd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ActiveMain.h" />
+    <ClInclude Include="brains.h" />
+    <ClInclude Include="bSocket.h" />
+    <ClInclude Include="EasyWsClient.h" />
+    <ClInclude Include="hCode.h" />
+    <ClInclude Include="MChar.h" />
+    <ClInclude Include="MyBASE64.h" />
+    <ClInclude Include="MyRSA.h" />
+    <ClInclude Include="NetWork\CEventGetActivityCenterInfos\CEventGetActivityCenterInfosRes.h" />
+    <ClInclude Include="NetWork\CEventGetActivityCenterInfos\ProgressToClient.h" />
+    <ClInclude Include="NetWork\CEventGetActivityCenterInfos\VideoActivityInfoToClient.h" />
+    <ClInclude Include="NetWork\CEventGetPlayerBasicCardInfo\CEventGetPlayerBasicCardInfo.h" />
+    <ClInclude Include="NetWork\CEventGetPlayerBasicCardInfo\CEventGetPlayerBasicCardInfoRes.h" />
+    <ClInclude Include="NetWork\CEventGetPlayerBasicCardInfo\PlayerBasicCardInfo.h" />
+    <ClInclude Include="NetWork\CEventGetSigninRewardNotify\CEventGetSigninRewardNotifyRes.h" />
+    <ClInclude Include="NetWork\CEventGetVideoHistoryInfo\CEventGetVideoHistoryInfosRes.h" />
+    <ClInclude Include="NetWork\CEventGetVideoHistoryInfo\RoomListInfo.h" />
+    <ClInclude Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoMainInfos.h" />
+    <ClInclude Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoMainInfosRes.h" />
+    <ClInclude Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoRoomTagInfosRes.h" />
+    <ClInclude Include="NetWork\CEventGetVideoMainInfos\CEventVideoRoomInfo.h" />
+    <ClInclude Include="NetWork\CEventGetVideoMainInfos\VideoHomePageRoomInfo.h" />
+    <ClInclude Include="NetWork\CEventGetVideoPlayerInfo\CEventGetVideoPlayerInfo.h" />
+    <ClInclude Include="NetWork\CEventGetVideoPlayerInfo\CEventGetVideoPlayerInfoRes.h" />
+    <ClInclude Include="NetWork\CEventIgnoreFreeGift\CEventIgnoreFreeGift.h" />
+    <ClInclude Include="NetWork\CEventIgnoreFreeGift\CEventIgnoreFreeGiftRes.h" />
+    <ClInclude Include="NetWork\CEventQueryVideoAccountInfo\CEventQueryVideoAccountInfo.h" />
+    <ClInclude Include="NetWork\CEventQueryVideoAccountInfo\CEventQueryVideoAccountInfoRes.h" />
+    <ClInclude Include="NetWork\CEventQueryVideoAccountInfo\RoomProxyAddress.h" />
+    <ClInclude Include="NetWork\CEventQueryVideoAccountInfo\RoomProxyInfo.h" />
+    <ClInclude Include="NetWork\CEventQueryVideoAccountInfo\UserIdentity.h" />
+    <ClInclude Include="NetWork\CEventRefreshVideoCharInfoToClient\CEventRefreshVideoCharInfoToClient.h" />
+    <ClInclude Include="NetWork\CEventRefreshVideoCharInfoToClient\VideoCharInfo.h" />
+    <ClInclude Include="NetWork\CEventRoomProxyWrapEvent\CEventRoomProxyWrapEvent.h" />
+    <ClInclude Include="NetWork\CEventUpdateSurpriseBoxStatus\CEventUpdateSurpriseBoxStatus.h" />
+    <ClInclude Include="NetWork\CEventUpdateSurpriseBoxStatus\SurpriseBoxStatus.h" />
+    <ClInclude Include="NetWork\CEventVideoInitConnection\CEventVideoInitConnectionRequest.h" />
+    <ClInclude Include="NetWork\CEventVideoInitConnection\CEventVideoInitConnectionResponse.h" />
+    <ClInclude Include="NetWork\CEventVideoPlayerHeartBeatNotify\CEventVideoPlayerHeartBeatNotify.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\AnchorImpressionData.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\AnchorImpressionDataServer.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\CEventVideoRoomEnterRoom.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\CEventVideoRoomEnterRoomRes.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\EnterVideoRoomInitInfo.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopeGrabberInfo.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopeInfo.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopePublicInfo.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\SplitScreenInfo.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\VideoResolution.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\VideoRoomLiveStatusDetail.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\VideoVoteEntry.h" />
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\VideoVoteInfo.h" />
+    <ClInclude Include="NetWork\CEventVideoSendGiftResult\AnchorData2.h" />
+    <ClInclude Include="NetWork\CEventVideoSendGiftResult\CEventVideoSendGiftResult.h" />
+    <ClInclude Include="NetWork\CEventVideoToClientChatMessage\CEventVideoToClientChatMessage.h" />
+    <ClInclude Include="NetWork\CEventVideoToClientChatMessage\VideoToClientChatMessage.h" />
+    <ClInclude Include="NetWork\GlobalClass.h" />
+    <ClInclude Include="NetWork\GlobalDefine.h" />
+    <ClInclude Include="NetWork\GlobalNameByClass.h" />
+    <ClInclude Include="NetWork\NetBuffer\hMemPool.h" />
+    <ClInclude Include="NetWork\NetBuffer\MemoryPool.cpp" />
+    <ClInclude Include="NetWork\NetBuffer\NetBuffer.h" />
+    <ClInclude Include="NetWork\ProtoBufSerializable\Descriptor.h" />
+    <ClInclude Include="NetWork\ProtoBufSerializable\ProtoBufSerializable.h" />
+    <ClInclude Include="NetWork\ProtoBufSerializer\ProtoBufSerializer.h" />
+    <ClInclude Include="NetWork\Utils.h" />
+    <ClInclude Include="nlohmann\json.hpp" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="service.h" />
+    <ClInclude Include="sha256.h" />
+    <ClInclude Include="SocketCompose.h" />
+    <ClInclude Include="WS_Client.h" />
+    <ClInclude Include="x5MGCConnection.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActiveMain.cpp" />
+    <ClCompile Include="bSocket.cpp" />
+    <ClCompile Include="EasyWsClient.cpp" />
+    <ClCompile Include="MChar.cpp" />
+    <ClCompile Include="MyBASE64.cpp" />
+    <ClCompile Include="MyRSA.cpp" />
+    <ClCompile Include="NetWork\CEventGetActivityCenterInfos\CEventGetActivityCenterInfosRes.cpp" />
+    <ClCompile Include="NetWork\CEventGetActivityCenterInfos\CReward.cpp" />
+    <ClCompile Include="NetWork\CEventGetActivityCenterInfos\ProgressToClient.cpp" />
+    <ClCompile Include="NetWork\CEventGetActivityCenterInfos\VideoActivityInfoToClient.cpp" />
+    <ClCompile Include="NetWork\CEventGetPlayerBasicCardInfo\CEventGetPlayerBasicCardInfo.cpp" />
+    <ClCompile Include="NetWork\CEventGetPlayerBasicCardInfo\CEventGetPlayerBasicCardInfoRes.cpp" />
+    <ClCompile Include="NetWork\CEventGetPlayerBasicCardInfo\PlayerBasicCardInfo.cpp" />
+    <ClCompile Include="NetWork\CEventGetSigninRewardNotify\CEventGetSigninRewardNotifyRes.cpp" />
+    <ClCompile Include="NetWork\CEventGetVideoHistoryInfo\CEventGetVideoHistoryInfosRes.cpp" />
+    <ClCompile Include="NetWork\CEventGetVideoHistoryInfo\RoomListInfo.cpp" />
+    <ClCompile Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoMainInfos.cpp" />
+    <ClCompile Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoMainInfosRes.cpp" />
+    <ClCompile Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoRoomTagInfosRes.cpp" />
+    <ClCompile Include="NetWork\CEventGetVideoMainInfos\CEventVideoRoomInfo.cpp" />
+    <ClCompile Include="NetWork\CEventGetVideoMainInfos\VideoHomePageRoomInfo.cpp" />
+    <ClCompile Include="NetWork\CEventGetVideoPlayerInfo\CEventGetVideoPlayerInfo.cpp" />
+    <ClCompile Include="NetWork\CEventGetVideoPlayerInfo\CEventGetVideoPlayerInfoRes.cpp" />
+    <ClCompile Include="NetWork\CEventIgnoreFreeGift\CEventIgnoreFreeGift.cpp" />
+    <ClCompile Include="NetWork\CEventIgnoreFreeGift\CEventIgnoreFreeGiftRes.cpp" />
+    <ClCompile Include="NetWork\CEventQueryVideoAccountInfo\CEventQueryVideoAccountInfo.cpp" />
+    <ClCompile Include="NetWork\CEventQueryVideoAccountInfo\CEventQueryVideoAccountInfoRes.cpp" />
+    <ClCompile Include="NetWork\CEventQueryVideoAccountInfo\RoomProxyAddress.cpp" />
+    <ClCompile Include="NetWork\CEventQueryVideoAccountInfo\RoomProxyInfo.cpp" />
+    <ClCompile Include="NetWork\CEventQueryVideoAccountInfo\UserIdentity.cpp" />
+    <ClCompile Include="NetWork\CEventRefreshVideoCharInfoToClient\CEventRefreshVideoCharInfoToClient.cpp" />
+    <ClCompile Include="NetWork\CEventRefreshVideoCharInfoToClient\VideoCharInfo.cpp" />
+    <ClCompile Include="NetWork\CEventRoomProxyWrapEvent\CEventRoomProxyWrapEvent.cpp" />
+    <ClCompile Include="NetWork\CEventUpdateSurpriseBoxStatus\CEventUpdateSurpriseBoxStatus.cpp" />
+    <ClCompile Include="NetWork\CEventUpdateSurpriseBoxStatus\SurpriseBoxStatus.cpp" />
+    <ClCompile Include="NetWork\CEventVideoInitConnection\CEventVideoInitConnectionRequest.cpp" />
+    <ClCompile Include="NetWork\CEventVideoInitConnection\CEventVideoInitConnectionResponse.cpp" />
+    <ClCompile Include="NetWork\CEventVideoPlayerHeartBeatNotify\CEventVideoPlayerHeartBeatNotify.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\AnchorImpressionData.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\AnchorImpressionDataServer.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\CEventVideoRoomEnterRoom.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\CEventVideoRoomEnterRoomRes.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\EnterVideoRoomInitInfo.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopeGrabberInfo.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopeInfo.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopePublicInfo.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\SplitScreenInfo.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\VideoResolution.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\VideoRoomLiveStatusDetail.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\VideoVoteEntry.cpp" />
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\VideoVoteInfo.cpp" />
+    <ClCompile Include="NetWork\CEventVideoSendGiftResult\AnchorData2.cpp" />
+    <ClCompile Include="NetWork\CEventVideoSendGiftResult\CEventVideoSendGiftResult.cpp" />
+    <ClCompile Include="NetWork\CEventVideoToClientChatMessage\CEventVideoToClientChatMessage.cpp" />
+    <ClCompile Include="NetWork\CEventVideoToClientChatMessage\VideoToClientChatMessage.cpp" />
+    <ClCompile Include="NetWork\NetBuffer\MemoryPool.h" />
+    <ClCompile Include="NetWork\NetBuffer\NetBuffer.cpp" />
+    <ClCompile Include="NetWork\ProtoBufSerializable\Descriptor.cpp" />
+    <ClCompile Include="NetWork\ProtoBufSerializable\ProtoBufSerializable.cpp" />
+    <ClCompile Include="NetWork\ProtoBufSerializer\ProtoBufSerializer.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="service.cpp" />
+    <ClCompile Include="sha256.cpp" />
+    <ClCompile Include="SocketCompose.cpp" />
+    <ClCompile Include="WS_Client.cpp" />
+    <ClCompile Include="x5mgcBase.cpp" />
+    <ClCompile Include="x5MGCConnection.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

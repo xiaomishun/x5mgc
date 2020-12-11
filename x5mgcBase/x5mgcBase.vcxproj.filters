@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protobuf">
+      <UniqueIdentifier>{86809b69-0e72-4678-8d75-0c07dda5b1a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf">
+      <UniqueIdentifier>{6a38048b-289b-4e43-82ad-0789b4e6de22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\ProtoBufSerializable">
+      <UniqueIdentifier>{6c819ce9-7102-4819-8651-59b98d794297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\ProtoBufSerializable">
+      <UniqueIdentifier>{daf1f606-5d51-45dc-bfb8-a64167575e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\NetBuffer">
+      <UniqueIdentifier>{a2abddc2-b9a6-4f76-ae89-63121b0b7d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\ProtoBufSerializer">
+      <UniqueIdentifier>{d2345eeb-f3b9-43d5-b1ab-2031b2cbb6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventQueryVideoAccountInfo">
+      <UniqueIdentifier>{f5484353-fb96-41fb-884f-6c7bed9932ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventVideoInitConnection">
+      <UniqueIdentifier>{e34c9536-6de0-4dfd-a2a9-2b35276283e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventRoomProxyWrapEvent">
+      <UniqueIdentifier>{a7e71916-976a-4a97-9ca3-2c05d8105621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventGetActivityCenterInfos">
+      <UniqueIdentifier>{89642a69-be05-44dd-9c32-1b77681647df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventGetSigninRewardNotify">
+      <UniqueIdentifier>{82deca35-1a7c-4745-ad7f-d23d3c434567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\ProtoBufSerializer">
+      <UniqueIdentifier>{fe8fcfa8-3729-4e7c-876a-7267a08716cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventGetActivityCenterInfos">
+      <UniqueIdentifier>{ce85fb47-33dd-49f8-89aa-e12a6e659287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventRoomProxyWrapEvent">
+      <UniqueIdentifier>{87169d3d-8385-45b2-aa9c-a04293268c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventVideoInitConnection">
+      <UniqueIdentifier>{279f211d-85f4-42c5-ac54-74c83323c16f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventQueryVideoAccountInfo">
+      <UniqueIdentifier>{e605649d-f641-45db-aba0-4b6de90a731e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\NetBuffer">
+      <UniqueIdentifier>{fb5f6cd9-3e56-4300-9402-e59ea9d088c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventGetSigninRewardNotify">
+      <UniqueIdentifier>{038dda57-48ec-4c49-b250-c1d63353746c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventGetVideoHistoryInfos">
+      <UniqueIdentifier>{829f30ba-fd97-4f3b-9298-a4f4f03a48ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventGetVideoHistoryInfos">
+      <UniqueIdentifier>{6d17d7d4-8fe1-41ca-b5bc-0c82c9597b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventGetVideoMainInfos">
+      <UniqueIdentifier>{056a6ceb-ccca-4de2-83a2-4ab2bb061d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventGetVideoMainInfos">
+      <UniqueIdentifier>{6fe925e1-2c5c-4a7d-9bd1-98e53ca77715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventVideoRoomEnterRoom">
+      <UniqueIdentifier>{b3f40295-f9d7-4ee2-9ab7-80acd0fb6adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventVideoRoomEnterRoom">
+      <UniqueIdentifier>{56aae92a-df75-4f9f-a125-30fb8c691e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventVideoSendGiftResult">
+      <UniqueIdentifier>{f8ea0eb1-f93a-4ec3-b1ee-dd09da01bb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventVideoSendGiftResult">
+      <UniqueIdentifier>{579a2571-9fdc-4413-9798-22e411e0e45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventRefreshVideoCharInfoToClient">
+      <UniqueIdentifier>{f66b236f-acd2-41da-840e-623cf2faec76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventRefreshVideoCharInfoToClient">
+      <UniqueIdentifier>{1529aa73-980d-4553-b751-5256339a48b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventUpdateSurpriseBoxStatus">
+      <UniqueIdentifier>{c9c14154-872f-4784-a709-fa3687c50ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventUpdateSurpriseBoxStatus">
+      <UniqueIdentifier>{8b4eb473-44ca-4aa7-92b1-3e6586185269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventVideoToClientChatMessage">
+      <UniqueIdentifier>{12c6ada7-901d-4c05-b16d-10a8fc88a674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventVideoToClientChatMessage">
+      <UniqueIdentifier>{0ea4c278-da89-49d8-b69c-0036b85a8ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventIgnoreFreeGift">
+      <UniqueIdentifier>{67516d4d-1737-4000-afc2-31f157a5e858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventIgnoreFreeGift">
+      <UniqueIdentifier>{8b5de8a9-152a-44d6-8c70-a8564c7cb1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventVideoPlayerHeartBeatNotify">
+      <UniqueIdentifier>{093e5e70-806f-4e2d-8252-b6d52fd23e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventVideoPlayerHeartBeatNotify">
+      <UniqueIdentifier>{e9526400-37cf-4447-8644-bce2d20fc5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\nlohmann">
+      <UniqueIdentifier>{052806e7-d214-462f-81bd-7d3ea23bbb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventGetVideoPlayerInfo">
+      <UniqueIdentifier>{fb776f24-a851-429b-8f9e-bea4d40f7372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventGetVideoPlayerInfo">
+      <UniqueIdentifier>{a8eea03e-54a4-4736-9dee-90410ddccc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\CEventGetPlayerBasicCardInfo">
+      <UniqueIdentifier>{7a2941e5-ed07-483b-9165-00b088f9b8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protobuf\CEventGetPlayerBasicCardInfo">
+      <UniqueIdentifier>{4611f147-b24f-4716-8500-8ef6062d9a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\memory">
+      <UniqueIdentifier>{fcb880fe-442a-4360-b779-9b9ef14e8a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protobuf\MemoryPool">
+      <UniqueIdentifier>{8e4d19f9-fd7d-423a-a9a9-384bbb02a822}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="x5MGCConnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketCompose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MChar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\ProtoBufSerializable\ProtoBufSerializable.h">
+      <Filter>protobuf\ProtoBufSerializable</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\ProtoBufSerializable\Descriptor.h">
+      <Filter>protobuf\ProtoBufSerializable</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\NetBuffer\NetBuffer.h">
+      <Filter>protobuf\NetBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\ProtoBufSerializer\ProtoBufSerializer.h">
+      <Filter>protobuf\ProtoBufSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\GlobalNameByClass.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="sha256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="brains.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventQueryVideoAccountInfo\CEventQueryVideoAccountInfo.h">
+      <Filter>protobuf\CEventQueryVideoAccountInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\Utils.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\GlobalClass.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\GlobalDefine.h">
+      <Filter>protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventQueryVideoAccountInfo\CEventQueryVideoAccountInfoRes.h">
+      <Filter>protobuf\CEventQueryVideoAccountInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventQueryVideoAccountInfo\RoomProxyInfo.h">
+      <Filter>protobuf\CEventQueryVideoAccountInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventQueryVideoAccountInfo\UserIdentity.h">
+      <Filter>protobuf\CEventQueryVideoAccountInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventQueryVideoAccountInfo\RoomProxyAddress.h">
+      <Filter>protobuf\CEventQueryVideoAccountInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoInitConnection\CEventVideoInitConnectionRequest.h">
+      <Filter>protobuf\CEventVideoInitConnection</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoInitConnection\CEventVideoInitConnectionResponse.h">
+      <Filter>protobuf\CEventVideoInitConnection</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventRoomProxyWrapEvent\CEventRoomProxyWrapEvent.h">
+      <Filter>protobuf\CEventRoomProxyWrapEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetActivityCenterInfos\CEventGetActivityCenterInfosRes.h">
+      <Filter>protobuf\CEventGetActivityCenterInfos</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetActivityCenterInfos\VideoActivityInfoToClient.h">
+      <Filter>protobuf\CEventGetActivityCenterInfos</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetActivityCenterInfos\ProgressToClient.h">
+      <Filter>protobuf\CEventGetActivityCenterInfos</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetSigninRewardNotify\CEventGetSigninRewardNotifyRes.h">
+      <Filter>protobuf\CEventGetSigninRewardNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoMainInfosRes.h">
+      <Filter>protobuf\CEventGetVideoMainInfos</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetVideoHistoryInfo\RoomListInfo.h">
+      <Filter>protobuf\CEventGetVideoHistoryInfos</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetVideoHistoryInfo\CEventGetVideoHistoryInfosRes.h">
+      <Filter>protobuf\CEventGetVideoHistoryInfos</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoRoomTagInfosRes.h">
+      <Filter>protobuf\CEventGetVideoMainInfos</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetVideoMainInfos\VideoHomePageRoomInfo.h">
+      <Filter>protobuf\CEventGetVideoMainInfos</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetVideoMainInfos\CEventVideoRoomInfo.h">
+      <Filter>protobuf\CEventGetVideoMainInfos</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoMainInfos.h">
+      <Filter>protobuf\CEventGetVideoMainInfos</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\CEventVideoRoomEnterRoom.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBASE64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRSA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoSendGiftResult\CEventVideoSendGiftResult.h">
+      <Filter>protobuf\CEventVideoSendGiftResult</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoSendGiftResult\AnchorData2.h">
+      <Filter>protobuf\CEventVideoSendGiftResult</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventRefreshVideoCharInfoToClient\CEventRefreshVideoCharInfoToClient.h">
+      <Filter>protobuf\CEventRefreshVideoCharInfoToClient</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventRefreshVideoCharInfoToClient\VideoCharInfo.h">
+      <Filter>protobuf\CEventRefreshVideoCharInfoToClient</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventUpdateSurpriseBoxStatus\CEventUpdateSurpriseBoxStatus.h">
+      <Filter>protobuf\CEventUpdateSurpriseBoxStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventUpdateSurpriseBoxStatus\SurpriseBoxStatus.h">
+      <Filter>protobuf\CEventUpdateSurpriseBoxStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoToClientChatMessage\CEventVideoToClientChatMessage.h">
+      <Filter>protobuf\CEventVideoToClientChatMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoToClientChatMessage\VideoToClientChatMessage.h">
+      <Filter>protobuf\CEventVideoToClientChatMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventIgnoreFreeGift\CEventIgnoreFreeGift.h">
+      <Filter>protobuf\CEventIgnoreFreeGift</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\CEventVideoRoomEnterRoomRes.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\EnterVideoRoomInitInfo.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\AnchorImpressionData.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\AnchorImpressionDataServer.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopeGrabberInfo.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopeInfo.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopePublicInfo.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\SplitScreenInfo.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\VideoResolution.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\VideoRoomLiveStatusDetail.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\VideoVoteEntry.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoRoomEnterRoom\VideoVoteInfo.h">
+      <Filter>protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventIgnoreFreeGift\CEventIgnoreFreeGiftRes.h">
+      <Filter>protobuf\CEventIgnoreFreeGift</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventVideoPlayerHeartBeatNotify\CEventVideoPlayerHeartBeatNotify.h">
+      <Filter>protobuf\CEventVideoPlayerHeartBeatNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="WS_Client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyWsClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nlohmann\json.hpp">
+      <Filter>源文件\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetVideoPlayerInfo\CEventGetVideoPlayerInfo.h">
+      <Filter>protobuf\CEventGetVideoPlayerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetVideoPlayerInfo\CEventGetVideoPlayerInfoRes.h">
+      <Filter>protobuf\CEventGetVideoPlayerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetPlayerBasicCardInfo\CEventGetPlayerBasicCardInfo.h">
+      <Filter>protobuf\CEventGetPlayerBasicCardInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetPlayerBasicCardInfo\CEventGetPlayerBasicCardInfoRes.h">
+      <Filter>protobuf\CEventGetPlayerBasicCardInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\CEventGetPlayerBasicCardInfo\PlayerBasicCardInfo.h">
+      <Filter>protobuf\CEventGetPlayerBasicCardInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\NetBuffer\MemoryPool.cpp">
+      <Filter>protobuf\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\NetBuffer\hMemPool.h">
+      <Filter>protobuf\MemoryPool</Filter>
+    </ClInclude>
+    <ClInclude Include="hCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="x5mgcBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="x5MGCConnection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketCompose.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MChar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\ProtoBufSerializable\Descriptor.cpp">
+      <Filter>源文件\protobuf\ProtoBufSerializable</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\ProtoBufSerializable\ProtoBufSerializable.cpp">
+      <Filter>源文件\protobuf\ProtoBufSerializable</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\NetBuffer\NetBuffer.cpp">
+      <Filter>源文件\protobuf\NetBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\ProtoBufSerializer\ProtoBufSerializer.cpp">
+      <Filter>源文件\protobuf\ProtoBufSerializer</Filter>
+    </ClCompile>
+    <ClCompile Include="sha256.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventQueryVideoAccountInfo\CEventQueryVideoAccountInfo.cpp">
+      <Filter>源文件\protobuf\CEventQueryVideoAccountInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventQueryVideoAccountInfo\CEventQueryVideoAccountInfoRes.cpp">
+      <Filter>源文件\protobuf\CEventQueryVideoAccountInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventQueryVideoAccountInfo\RoomProxyInfo.cpp">
+      <Filter>源文件\protobuf\CEventQueryVideoAccountInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventQueryVideoAccountInfo\UserIdentity.cpp">
+      <Filter>源文件\protobuf\CEventQueryVideoAccountInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventQueryVideoAccountInfo\RoomProxyAddress.cpp">
+      <Filter>源文件\protobuf\CEventQueryVideoAccountInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoInitConnection\CEventVideoInitConnectionRequest.cpp">
+      <Filter>源文件\protobuf\CEventVideoInitConnection</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoInitConnection\CEventVideoInitConnectionResponse.cpp">
+      <Filter>源文件\protobuf\CEventVideoInitConnection</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventRoomProxyWrapEvent\CEventRoomProxyWrapEvent.cpp">
+      <Filter>源文件\protobuf\CEventRoomProxyWrapEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetActivityCenterInfos\CEventGetActivityCenterInfosRes.cpp">
+      <Filter>源文件\protobuf\CEventGetActivityCenterInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetActivityCenterInfos\VideoActivityInfoToClient.cpp">
+      <Filter>源文件\protobuf\CEventGetActivityCenterInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetActivityCenterInfos\CReward.cpp">
+      <Filter>源文件\protobuf\CEventGetActivityCenterInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetActivityCenterInfos\ProgressToClient.cpp">
+      <Filter>源文件\protobuf\CEventGetActivityCenterInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetVideoHistoryInfo\CEventGetVideoHistoryInfosRes.cpp">
+      <Filter>源文件\protobuf\CEventGetVideoHistoryInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetSigninRewardNotify\CEventGetSigninRewardNotifyRes.cpp">
+      <Filter>源文件\protobuf\CEventGetSigninRewardNotify</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetVideoHistoryInfo\RoomListInfo.cpp">
+      <Filter>源文件\protobuf\CEventGetVideoHistoryInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoMainInfosRes.cpp">
+      <Filter>源文件\protobuf\CEventGetVideoMainInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoRoomTagInfosRes.cpp">
+      <Filter>源文件\protobuf\CEventGetVideoMainInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetVideoMainInfos\VideoHomePageRoomInfo.cpp">
+      <Filter>源文件\protobuf\CEventGetVideoMainInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetVideoMainInfos\CEventVideoRoomInfo.cpp">
+      <Filter>源文件\protobuf\CEventGetVideoMainInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetVideoMainInfos\CEventGetVideoMainInfos.cpp">
+      <Filter>源文件\protobuf\CEventGetVideoMainInfos</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\CEventVideoRoomEnterRoom.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBASE64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRSA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoSendGiftResult\CEventVideoSendGiftResult.cpp">
+      <Filter>源文件\protobuf\CEventVideoSendGiftResult</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoSendGiftResult\AnchorData2.cpp">
+      <Filter>源文件\protobuf\CEventVideoSendGiftResult</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventRefreshVideoCharInfoToClient\CEventRefreshVideoCharInfoToClient.cpp">
+      <Filter>源文件\protobuf\CEventRefreshVideoCharInfoToClient</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventRefreshVideoCharInfoToClient\VideoCharInfo.cpp">
+      <Filter>源文件\protobuf\CEventRefreshVideoCharInfoToClient</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventUpdateSurpriseBoxStatus\CEventUpdateSurpriseBoxStatus.cpp">
+      <Filter>源文件\protobuf\CEventUpdateSurpriseBoxStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventUpdateSurpriseBoxStatus\SurpriseBoxStatus.cpp">
+      <Filter>源文件\protobuf\CEventUpdateSurpriseBoxStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoToClientChatMessage\CEventVideoToClientChatMessage.cpp">
+      <Filter>源文件\protobuf\CEventVideoToClientChatMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoToClientChatMessage\VideoToClientChatMessage.cpp">
+      <Filter>源文件\protobuf\CEventVideoToClientChatMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventIgnoreFreeGift\CEventIgnoreFreeGift.cpp">
+      <Filter>源文件\protobuf\CEventIgnoreFreeGift</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\CEventVideoRoomEnterRoomRes.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\EnterVideoRoomInitInfo.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\AnchorImpressionData.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\AnchorImpressionDataServer.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopeGrabberInfo.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopeInfo.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\RedEnvelopePublicInfo.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\SplitScreenInfo.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\VideoResolution.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\VideoRoomLiveStatusDetail.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\VideoVoteEntry.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoRoomEnterRoom\VideoVoteInfo.cpp">
+      <Filter>源文件\protobuf\CEventVideoRoomEnterRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventIgnoreFreeGift\CEventIgnoreFreeGiftRes.cpp">
+      <Filter>源文件\protobuf\CEventIgnoreFreeGift</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventVideoPlayerHeartBeatNotify\CEventVideoPlayerHeartBeatNotify.cpp">
+      <Filter>源文件\protobuf\CEventVideoPlayerHeartBeatNotify</Filter>
+    </ClCompile>
+    <ClCompile Include="WS_Client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyWsClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetVideoPlayerInfo\CEventGetVideoPlayerInfo.cpp">
+      <Filter>源文件\protobuf\CEventGetVideoPlayerInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetVideoPlayerInfo\CEventGetVideoPlayerInfoRes.cpp">
+      <Filter>源文件\protobuf\CEventGetVideoPlayerInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetPlayerBasicCardInfo\CEventGetPlayerBasicCardInfo.cpp">
+      <Filter>源文件\protobuf\CEventGetPlayerBasicCardInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetPlayerBasicCardInfo\CEventGetPlayerBasicCardInfoRes.cpp">
+      <Filter>源文件\protobuf\CEventGetPlayerBasicCardInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\CEventGetPlayerBasicCardInfo\PlayerBasicCardInfo.cpp">
+      <Filter>源文件\protobuf\CEventGetPlayerBasicCardInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\NetBuffer\MemoryPool.h">
+      <Filter>源文件\memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
