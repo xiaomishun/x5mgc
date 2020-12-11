@@ -1,5 +1,0 @@
-﻿  x5MGCConnection.cpp
-e:\x5mobile\x5mgcbase\x5mgcbase\x5mgcconnection.cpp(395): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
-e:\x5mobile\x5mgcbase\x5mgcbase\x5mgcconnection.cpp(398): warning C4838: 从“size_t”转换到“int”需要收缩转换
-e:\x5mobile\x5mgcbase\x5mgcbase\x5mgcconnection.cpp(558): warning C4244: “参数”: 从“time_t”转换到“int”，可能丢失数据
-  x5mgcBase.vcxproj -> E:\x5mobile\x5mgcBase\Debug\x5mgcBase.exe
